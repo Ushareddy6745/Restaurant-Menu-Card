@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-left:25%;
+            margin-right:25%;
+            background-color: black;
+        }
+        header h1{
+            font-style: italic;
+        }
+        header::first-line{
+            content: "";
+            color:rgb(213, 131, 15);
+            font-size: 50px;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        img{
+            border-radius: 50%;
+        }
+        
+        .div1{
+            display: flex;
+            justify-content: center;
+        }
+
+        .text1 h1::first-letter{
+            text-transform: uppercase;
+        }
+        .div2{
+            display: flex;
+            
+        }
+        .text2 h1::first-letter{
+            text-transform: uppercase;
+        }
+        .div3{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .text13 h1::first-letter{
+            text-transform: uppercase;
+        }
+        li::marker{
+            color:rgb(213, 131, 15);
+        }
+         .text1 li::after{
+            content: '<- Exciting!';
+        color: chartreuse;     
+         }
+         ul{
+            color: antiquewhite;
+            font-size: 30px;
+         }
+         .text3 li::before{
+            content: 'Offer->';
+            color: aquamarine;
+         }
+           
+
+    </style>
+</head>
+<body>
+    <header>
+   <h1>Honey Bee Restaurant</h1>
+   </header>
+   <div class="div1">
+    <div class="text1">
+        <h1>sTARTERS</h1>
+        <ul>
+            <li>Lorem ipsum dolor&nbsp;&nbsp;$100</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$200</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$300</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$1400</li>
+    </div>
+    <div class="img1">
+        <img src="./download.jpeg">
+    </div>
+   </div>
+   <div class="div2">
+    <div class="text2">
+        <h1>mAIN COURSE</h1>
+        <ul>
+            <li>Lorem ipsum dolor&nbsp;&nbsp;$100</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$200</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$300</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$1400</li>
+    </div>
+    <div class="img2">
+        <img src="./download (1).jpeg">
+    </div>
+   </div>
+   <div class="div3">
+    <div class="text3">
+        <h1>dESSERTS</h1>
+        <ul>
+            <li>Lorem ipsum dolor&nbsp;&nbsp;$100</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$200</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$300</li>
+             <li>Lorem ipsum dolor&nbsp;&nbsp;$1400</li>
+    </div>
+    <div class="img3">
+        <img src="./download (2).jpeg">
+    </div>
+   </div>
+</body>
+</html>
